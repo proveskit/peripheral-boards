@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "proves-peripherals")(type "KiCad")(uri "${KIPRJMOD}/proves-peripherals.pretty")(options "")(descr ""))
+)
