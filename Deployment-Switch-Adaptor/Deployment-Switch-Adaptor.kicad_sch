@@ -5,203 +5,6 @@
 	(uuid "fd62f8d6-bc17-47bc-8a5d-c79216a03161")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J2"
-				(at 1.2701 -5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at -1.2699 -5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "NO"
-					(at 2.286 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "NC"
-					(at 2.286 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Com"
-					(at 3.048 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Common"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -402,6 +205,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:D2F-L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D2F-L"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-TH_D2F-L"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics_D2F-L_Omron-Electronics-D2F-L_C231337.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C231337"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D2F-L_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 5.08) (xy -6.35 5.84) (xy -5.08 5.84) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 0) (xy -3.56 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.56 0) (xy -1.78 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.78 0) (xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.03) (xy -2.29 2.03) (xy -2.29 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 90)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 123.19 67.31)
@@ -416,8 +404,18 @@
 		(uuid "dcb2aec1-a99d-4ea6-96a4-f38b5941f2a1")
 	)
 	(no_connect
-		(at 113.03 58.42)
+		(at 114.3 57.15)
 		(uuid "5c64432b-f10e-41aa-b7d4-bc83aea59865")
+	)
+	(wire
+		(pts
+			(xy 116.84 57.15) (xy 116.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0745772f-59e1-4513-b900-09122cfea8a2")
 	)
 	(wire
 		(pts
@@ -438,16 +436,6 @@
 			(type default)
 		)
 		(uuid "4f3ca1b5-62ab-433f-a144-38a6723bc0b4")
-	)
-	(wire
-		(pts
-			(xy 110.49 60.96) (xy 110.49 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67eb4c61-988e-4568-a42b-9f4fd7575fef")
 	)
 	(wire
 		(pts
@@ -481,16 +469,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 60.96) (xy 123.19 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b6ebc9d-d929-4547-868f-9d996896622e")
-	)
-	(wire
-		(pts
 			(xy 119.38 67.31) (xy 123.19 67.31)
 		)
 		(stroke
@@ -501,13 +479,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 60.96) (xy 110.49 60.96)
+			(xy 116.84 60.96) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfe029cb-1e56-496a-b339-8769e562f85a")
+		(uuid "9ae0e09e-b72c-42c3-8d5e-1e8889ea35c4")
 	)
 	(wire
 		(pts
@@ -521,13 +499,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 115.57 60.96)
+			(xy 102.87 60.96) (xy 109.22 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d86009d6-64ab-4b73-9a4b-2725de32e715")
+		(uuid "e6d02593-a963-4a65-844e-d564ab9cc466")
+	)
+	(wire
+		(pts
+			(xy 109.22 57.15) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e884ad10-6319-4e77-b05c-ab00c3932991")
 	)
 	(wire
 		(pts
@@ -539,7 +527,7 @@
 		)
 		(uuid "fc54a367-7570-4932-8b75-15f20715f613")
 	)
-	(global_label "V-"
+	(global_label "V+"
 		(shape bidirectional)
 		(at 123.19 67.31 0)
 		(fields_autoplaced yes)
@@ -549,7 +537,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a60decb2-0070-4652-813d-e12bfb90a09a")
+		(uuid "43d17a3b-573e-4ff7-b612-ebfa89cb7ea4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.9475 67.31 0)
 			(effects
@@ -561,7 +549,7 @@
 			)
 		)
 	)
-	(global_label "V+"
+	(global_label "V-"
 		(shape bidirectional)
 		(at 102.87 67.31 180)
 		(fields_autoplaced yes)
@@ -571,7 +559,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e9a80dc2-3372-4900-a27b-f6542bfa858d")
+		(uuid "ce7ba1dd-7874-49b0-8434-5e0bf08149bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.1125 67.31 0)
 			(effects
@@ -584,44 +572,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 113.03 53.34 90)
+		(lib_id "easyeda2kicad:D2F-L")
+		(at 114.3 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f22407c8-06e1-4c8a-b6df-c1309e46d278")
-		(property "Reference" "J2"
-			(at 118.11 52.0699 90)
+		(uuid "a1c8f52f-690f-48ac-b721-43b307966585")
+		(property "Reference" "SW1"
+			(at 120.65 49.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D2F-5L3"
-			(at 118.11 54.6099 90)
+		(property "Value" "D2F-L"
+			(at 120.65 51.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "proves-peripherals:D2F-5L3"
-			(at 113.03 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 53.34 0)
+		(property "Footprint" "easyeda2kicad:SW-TH_D2F-L"
+			(at 114.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,8 +608,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 53.34 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Omron-Electronics_D2F-L_Omron-Electronics-D2F-L_C231337.html"
+			(at 114.3 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,19 +617,37 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5022b259-64a7-4ddd-95f3-f430d470b42d")
+		(property "Description" ""
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "fc1fd304-7024-418c-96ac-4e10152d228a")
+		(property "LCSC Part" "C231337"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "38ec07b5-94a4-4634-8769-376a80c598c9")
+			(uuid "fcd5e85e-5dcd-4b8a-a4ce-718234831166")
+		)
+		(pin "3"
+			(uuid "fa711f4f-abbc-4e5c-814f-36dcc1f3a426")
+		)
+		(pin "2"
+			(uuid "5975fca0-cc93-410e-88a9-72cf6b3a7e9d")
 		)
 		(instances
 			(project ""
 				(path "/fd62f8d6-bc17-47bc-8a5d-c79216a03161"
-					(reference "J2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
